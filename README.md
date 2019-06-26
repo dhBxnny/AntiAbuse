@@ -44,7 +44,7 @@ const antiAbuseClient = new AntiAbuse(Your_Configuration)
 ```
 
 ### Configuration Options
-- `robloxCookie`: **Required**: Your full Roblox cookie (`.ROBLOXSECURITY`). It is recommended that you use a bot account.
+- `robloxCookie`: **Required**: Your full Roblox cookie (`.ROBLOSECURITY`). It is recommended that you use a bot account.
 - `discordWebhook`: **Required**: Your Discord Webhook, which will executed when an attack is detected.
 - `groupId`: **Required**: The ID of the group you want to protect.
 - `delay`: The delay for the monit function. It will scan your group every `delay` seconds. Default: 90 seconds.
