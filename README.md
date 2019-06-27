@@ -53,7 +53,7 @@ const antiAbuseClient = new AntiAbuse(Your_Configuration)
 - `duration`: The time which that the maximum actions can be reached within. Default: 10 minutes, so users can perform 10 actions in 10 minutes.
 
 ## Client Methods
-Once you have a client you can use its methods, documented below:
+Once you have a client, you can use its methods which are documented below:
 ### Monit
 `AntiAbuse.monit(delay?)`
 
